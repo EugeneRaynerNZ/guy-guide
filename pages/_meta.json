@@ -2,7 +2,8 @@
     "index": "Home",
     "tutorial": "Tutorial",
     "diet": {
-        "title": "Diet"
+        "title": "Diet",
+        "display": "hidden"
     },
     "testosterone": {
         "title": "Testosterone"
