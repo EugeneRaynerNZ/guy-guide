@@ -1,4 +1,5 @@
 {
-    "introduction": "About this section",
-    "fast800": "Fast 800"
+    "fast800": {
+        "title": "Fast 800"
+    }
 } 

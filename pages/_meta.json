@@ -2,19 +2,15 @@
     "index": "Home",
     "tutorial": "Tutorial",
     "diet": {
-        "title": "Diet",
-        "display": "hidden"
-    },
-    "mental-health": {
-        "title": "Mental Health",
-        "display": "hidden"
+        "title": "Diet"
     },
     "testosterone": {
-        "title": "Testosterone",
-        "display": "hidden"
+        "title": "Testosterone"
+    },
+    "mental-health": {
+        "title": "Mental Health"
     },
     "wealth": {
-        "title": "Wealth",
-        "display": "hidden"
+        "title": "Wealth"
     }
-}
+} 
