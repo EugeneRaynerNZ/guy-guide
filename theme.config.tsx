@@ -3,16 +3,35 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Nextra Docs Template',
   },
+  // Collapses all level 1 sidebar, add icons to titles
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    titleComponent({ title }) {
+      if (title === 'Testosterone') {
+        return <>❓ {title}</>
+      }
+      return <>👉 {title}</>
+    }
+  },
+  // remove navigation from bottom of page
+  navigation: false,
+  // SEO
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – SWR'
+    }
+  },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Insert Name Here" />
+      <meta property="og:description" content="The place for young men to learn about their bodies" />
+    </>
+  ),
 }
 
 export default config

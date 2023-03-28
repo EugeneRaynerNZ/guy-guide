@@ -1,5 +1,11 @@
 {
-    "anxiety": "Anxiety",
-    "depression": "Depression",
-    "anger": "Anger"
+    "anxiety": {
+        "title":"Anxiety"
+    },
+    "depression": {
+        "title": "Depression"
+    },
+    "anger": {
+        "title": "Anger"
+    }
 }
