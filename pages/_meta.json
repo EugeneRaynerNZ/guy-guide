@@ -1,12 +1,20 @@
 {
     "index": "Home",
     "tutorial": "Tutorial",
-    "body": "Body",
-    "mind": "Mind",
-    "wealth": "Wealth",
-    "family": "Family",
-    "about": {
-        "type": "page",
-        "title": "About Us"
+    "diet": {
+        "title": "Diet",
+        "display": "hidden"
+    },
+    "mental-health": {
+        "title": "Mental Health",
+        "display": "hidden"
+    },
+    "testosterone": {
+        "title": "Testosterone",
+        "display": "hidden"
+    },
+    "wealth": {
+        "title": "Wealth",
+        "display": "hidden"
     }
-} 
+}
