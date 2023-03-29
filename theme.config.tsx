@@ -17,8 +17,8 @@ const config: DocsThemeConfig = {
       return <>👉 {title}</>
     }
   },
-  // remove navigation from bottom of page
-  navigation: false,
+  // add navigation from bottom of page
+  navigation: true,
   // SEO
   useNextSeoProps() {
     return {
