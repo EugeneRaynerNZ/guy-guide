@@ -8,6 +8,9 @@
     "diet": {
         "title": "Diet"
     },
+    "exercise": {
+        "title": "Exercise"
+    },
     "testosterone": {
         "title": "Testosterone"
     },
@@ -15,6 +18,7 @@
         "title": "Mental Health"
     },
     "wealth": {
-        "title": "Wealth"
+        "title": "Wealth",
+        "display": "hidden"
     }
 } 
