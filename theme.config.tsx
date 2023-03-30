@@ -1,20 +1,40 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image'
+import { MdAccessibility } from "react-icons/md";
+import { AiFillHome, AiTwotoneHeart } from "react-icons/ai";
+import { GiConverseShoe } from "react-icons/gi";
+import { FaBook, FaHeadSideVirus } from "react-icons/fa";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <Image src="/diet/vegetable-head.png" alt="Guys Guide" width={50} height={50} />,
   // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Guy Guide',
   },
   // Collapses all level 1 sidebar, add icons to titles
   sidebar: {
     defaultMenuCollapseLevel: 1,
     titleComponent({ title }) {
-      if (title === 'Testosterone') {
-        return <>❓ {title}</>
+      if (title === 'Home') {
+        return <div className="listItemContainer"><AiFillHome /> {title}</div>
       }
-      return <>👉 {title}</>
+      if (title === 'Guide') {
+        return <div className="listItemContainer"><FaBook /> {title}</div>
+      }
+      if (title === 'Testosterone') {
+        return <div className="listItemContainer"><MdAccessibility /> {title}</div>
+      }
+      if (title === 'Diet') {
+        return <div className="listItemContainer"><AiTwotoneHeart /> {title}</div>
+      }
+      if (title === 'Exercise') {
+        return <div className="listItemContainer"><GiConverseShoe /> {title}</div>
+      }
+      if (title === 'Mental Health') {
+        return <div className="listItemContainer"><FaHeadSideVirus /> {title}</div>
+      }
+      return <>{title}</>
     }
   },
   // add navigation from bottom of page
@@ -22,7 +42,7 @@ const config: DocsThemeConfig = {
   // SEO
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – SWR'
+      titleTemplate: '%s – Guy Guide'
     }
   },
   head: (

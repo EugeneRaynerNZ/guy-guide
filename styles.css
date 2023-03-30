@@ -1,0 +1,8 @@
+.listItemContainer{
+    display: flex;
+    align-items: center;
+}
+
+.listItemContainer svg{
+    margin-right: 8px;
+}

@@ -1,7 +1,7 @@
 {
-  "name": "mens-health-website",
+  "name": "guy-guide",
   "version": "0.0.1",
-  "description": "Mens Health Website",
+  "description": "The guy's guide to men's health",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,7 +23,8 @@
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",

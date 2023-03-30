@@ -20,5 +20,9 @@
     "wealth": {
         "title": "Wealth",
         "display": "hidden"
+    },
+    "about": {
+        "title": "About the Author",
+        "type": "page"
     }
 } 
