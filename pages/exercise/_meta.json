@@ -1,3 +1,7 @@
 {
-    "weight-lifting": "Weight Lifting"
+    "weight-lifting": "Weight Lifting",
+    "running": "Running",
+    "walking": "Walking",
+    "swimming": "Swimming",
+    "hiit":"HIIT"
 }

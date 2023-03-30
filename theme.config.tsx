@@ -7,7 +7,15 @@ import { GiConverseShoe } from "react-icons/gi";
 import { FaBook, FaHeadSideVirus } from "react-icons/fa";
 
 const config: DocsThemeConfig = {
-  logo: <Image src="/diet/vegetable-head.png" alt="Guys Guide" width={50} height={50} />,
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Guy Guide" />
+      <meta property="og:description" content="The place for young men to learn about their bodies" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+    </>
+  ),
+  logo: <span className="textLogo">Guy Guide</span>,
   // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Guy Guide',
@@ -45,13 +53,7 @@ const config: DocsThemeConfig = {
       titleTemplate: '%s – Guy Guide'
     }
   },
-  head: (
-    <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Insert Name Here" />
-      <meta property="og:description" content="The place for young men to learn about their bodies" />
-    </>
-  ),
+  
 }
 
 export default config
