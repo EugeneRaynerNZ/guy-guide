@@ -1,10 +1,11 @@
 {
   "name": "guy-guide",
   "version": "0.0.1",
-  "description": "The guy's guide to men's health",
+  "description": "The guy's guide to physical health and mental stability",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "repository": {
@@ -24,8 +25,7 @@
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "sharp": "^0.32.0"
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
