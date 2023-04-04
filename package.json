@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/EugeneRaynerNZ/guy-guide"
   },
   "author": "Eugene Rayner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/EugeneRaynerNZ/guy-guide/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/EugeneRaynerNZ/guy-guide#readme",
   "dependencies": {
     "next": "^13.0.6",
     "next-seo": "^5.15.0",
