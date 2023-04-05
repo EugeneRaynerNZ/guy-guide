@@ -1,0 +1,14 @@
+{
+    "carbohydrates": {
+        "title": "Carbohydrates"
+    },
+    "fiber": {
+        "title": "Fiber"
+    },
+    "protein": {
+        "title": "Protein"
+    },
+    "vitamins": {
+        "title": "Vitamins"
+    }
+}

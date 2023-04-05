@@ -1,5 +1,11 @@
 {
-    "fast800": {
-        "title": "Fast 800"
+    "nutrition": {
+        "title": "Nutrition"
+    },
+    "techniques": {
+        "title": "Techniques"
+    },
+    "scientific-diets": {
+        "title": "Scientific Diets"
     }
 } 
