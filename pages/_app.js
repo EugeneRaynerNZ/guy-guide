@@ -6,9 +6,10 @@ const App = ({ Component, pageProps }) => {
   return (
     <>
       {/* <GoogleAnalytics trackPageViews /> */}
-      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`} />
 
-      <Script strategy="lazyOnload">
+      {/* Analytics */}
+      <Script strategy="lazyOnload" onError={ (e) => { console.error('Analytics 1 failed to load', e) }} src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`} />
+      <Script strategy="lazyOnload" onError={ (e) => { console.error('Analytics 2 failed to load', e) }}>
           {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
@@ -17,6 +18,9 @@ const App = ({ Component, pageProps }) => {
               gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
           `}
       </Script>
+
+      {/* Adsense */}
+      <Script async strategy="beforeInteractive" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529`} onError={ (e) => { console.error('Adsense Failed to load', e) }} crossorigin="anonymous"></Script>
 
       <Component {...pageProps} />
     </>
