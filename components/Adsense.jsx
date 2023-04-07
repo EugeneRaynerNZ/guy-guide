@@ -19,9 +19,6 @@ export default function Adsense() {
   return (
     // In article Ad Template
     <>
-      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529"
-     crossOrigin="anonymous"></Script>
-
       <ins className="adsbygoogle"
       style={{display: 'block'}}
       data-ad-client="ca-pub-1684783406695529"
