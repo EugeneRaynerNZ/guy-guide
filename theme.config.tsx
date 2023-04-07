@@ -1,6 +1,7 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import { DocsThemeConfig } from 'nextra-theme-docs'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { MdAccessibility } from "react-icons/md";
 import { AiFillHome, AiTwotoneHeart } from "react-icons/ai";
 import { GiConverseShoe } from "react-icons/gi";
@@ -18,7 +19,9 @@ const config: DocsThemeConfig = {
   logo: <span className="textLogo">Guy Guide</span>,
   // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Guy Guide',
+    text: <span>
+      {new Date().getFullYear()} © <a href="https://guy.guide" target="_blank">Guy Guide</a>.
+    </span>,
   },
   // Collapses all level 1 sidebar, add icons to titles
   sidebar: {
@@ -49,10 +52,13 @@ const config: DocsThemeConfig = {
   navigation: true,
   // SEO
   useNextSeoProps() {
-    return {
-      titleTemplate: '%s – Guy Guide'
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s | Guy Guide'
+      }
     }
-  },
+  }
   
 }
 
