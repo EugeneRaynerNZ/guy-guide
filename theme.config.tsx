@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
       if (title === 'Home') {
         return <div className="listItemContainer"><AiFillHome /> {title}</div>
       }
-      if (title === 'Guide') {
+      if (title === 'About Guy Guide') {
         return <div className="listItemContainer"><FaBook /> {title}</div>
       }
       if (title === 'Testosterone') {

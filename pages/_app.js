@@ -22,7 +22,15 @@ const App = ({ Component, pageProps }) => {
       {/* Adsense */}
       <Script async strategy="beforeInteractive" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529`} onError={ (e) => { console.error('Adsense Failed to load', e) }} crossOrigin="anonymous"></Script>
 
-      <Component {...pageProps} />
+      <div className="wrapper">
+        <div 
+          style={{display: 'none'}} 
+          className="cookieContainer">
+          Accept all cookies? 
+          <button onClick={(enableGoogleAdsense)}>Accept all cookies</button>
+        </div>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 };

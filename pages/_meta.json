@@ -2,8 +2,8 @@
     "index": {
         "title": "Home"
     },
-    "tutorial": {
-        "title": "Guide"
+    "about": {
+        "title": "About Guy Guide"
     },
     "diet": {
         "title": "Diet"
@@ -21,7 +21,7 @@
         "title": "Wealth",
         "display": "hidden"
     },
-    "about": {
+    "aboutPage": {
         "title": "About the Author",
         "type": "page"
     }

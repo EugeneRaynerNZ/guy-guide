@@ -2,13 +2,16 @@
     "carbohydrates": {
         "title": "Carbohydrates"
     },
-    "fiber": {
-        "title": "Fiber"
-    },
     "protein": {
         "title": "Protein"
     },
+    "fats": {
+        "title": "Fats"
+    },
     "vitamins": {
         "title": "Vitamins"
+    },
+    "fiber": {
+        "title": "Fiber"
     }
 }
