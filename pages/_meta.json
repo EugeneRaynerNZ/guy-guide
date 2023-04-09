@@ -24,5 +24,10 @@
     "aboutPage": {
         "title": "About the Author",
         "type": "page"
+    },
+    "privacy-policy": {
+        "title": "Privary Policy",
+        "type": "page",
+        "display": "hidden"
     }
 } 

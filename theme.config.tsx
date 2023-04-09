@@ -50,6 +50,10 @@ const config: DocsThemeConfig = {
   },
   // add navigation from bottom of page
   navigation: true,
+  // search: {
+  //   component: false,
+  //   placeholder: 'Search Guy Guide',
+  // },
   // SEO
   useNextSeoProps() {
     const { asPath } = useRouter()
