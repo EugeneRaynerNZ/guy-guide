@@ -20,7 +20,12 @@ const App = ({ Component, pageProps }) => {
       </Script>
 
       {/* Adsense */}
-      <Script strategy="lazyOnload" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529`} onError={ (e) => { console.error('Adsense Failed to load', e) }} crossOrigin="anonymous"></Script>
+      <Script 
+        id="adsbygoogle-init"
+        strategy="afterInteractive"
+        crossOrigin="anonymous"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529"> 
+      </Script>
 
       <Component {...pageProps} />
     </>
