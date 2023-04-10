@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Cards from '/components/Cards'
+import { BiExpand, BiAccessibility, BiAbacus } from "react-icons/bi";
 
 <Head>
     <title>Guy Guide</title>
@@ -13,16 +15,33 @@ import Head from 'next/head'
 </Head>
 
 # Guy Guide.
-Welcome to Guy Guide - the preeminent destination for men who are sincerely committed to achieving peak physical and mental fitness! We recognize that as a man, you confront a distinct set of obstacles when it comes to staying healthy and performing at your highest level. Thus, we have curated a website that is exclusively crafted to furnish you with the essential knowledge and resources necessary for success.
+<strong>Let's start with science.</strong>
 
-## Physical Health
-At Guy Guide, our fervent mission is to empower men to thrive. We understand that exercise is not only about aesthetic appeal, but also vital for promoting inner well-being. Therefore, we offer all-encompassing manuals to facilitate muscle development, fat incineration, and overall physique refinement. Whether you are a seasoned gym enthusiast or a novice to the fitness world, we have got you comprehensively covered.
+Guy Guide is dedicated to providing men with a comprehensive database of scientific information about dieting, exercise, testosterone, and mental health. Our platform utilizes Artificial Intelligence to collect and analyze vast amounts of scientific data, enabling us to provide our users with reliable and evidence-based information. 
 
-## Mental Health
-We acknowledge that fitness is only one facet of overall wellness. Consequently, we also provide a plethora of resources and information on mental health. From managing stress and anxiety to enhancing focus and concentration, we possess an arsenal of tips and techniques to help you care for your mind and attain optimal psychological well-being.
+## Why use Guy Guide
 
-## Testosterone
-And, of course, we must not overlook the importance of testosterone. As a man, you are well aware of the significant role that this hormone plays in your physical and mental health. That is why we have meticulously designed in-depth guides on how to boost your testosterone levels naturally, along with tips for maintaining healthy hormone levels as you age.
+We recognise the vast amount of information around health and fitness there is to consume on the internet.
+<Cards arr={[
+    {title: 'Misinformation: unhealthy diets', icon: <BiExpand size={28}/>}, 
+    {title: 'Complex information creates barriers to success', icon: <BiAccessibility size={28} />}, 
+    {title: 'Overpolluted information is confusing', icon: <BiAbacus size={28} />}
+]}/>
 
-## In this guide
-Whether you aspire to reach optimal physical fitness, bolster your mental health, or optimize your hormonal balance, Guy Guide is the paramount authority on the subject. Join our community of like-minded individuals and commence your journey towards your best self today!
+## Healthy you equals Healthy you
+It's become apparent that diet, exercise, testosterone and mental health go hand in hand. These science topics affect each other in positive and negative ways. 
+
+
+
+- Diet impacts Physical Health, Mental Health and Testosterone
+- Exercise impacts Physical Health, Mental Health and testosterone
+- Testosterone impacts Physical Health and Mental Health
+
+
+## We aren't a gym website.
+- We don't offer exercise / gym routines (yet)
+- We don't offer meal-to-meal packages (yet)
+- We want you to choose a scientific diet based off your preferences. Preferences makes sticking to your diet much easier.
+- We want you to 
+
+### The science backs it up
