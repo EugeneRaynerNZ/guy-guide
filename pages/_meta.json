@@ -8,11 +8,11 @@
     "diet": {
         "title": "Diet"
     },
-    "exercise": {
-        "title": "Exercise"
-    },
     "testosterone": {
         "title": "Testosterone"
+    },
+    "physical-health": {
+        "title": "Physical Health"
     },
     "mental-health": {
         "title": "Mental Health"

@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
       if (title === 'Diet') {
         return <div className="listItemContainer"><AiTwotoneHeart /> {title}</div>
       }
-      if (title === 'Exercise') {
+      if (title === 'Physical Health') {
         return <div className="listItemContainer"><GiConverseShoe /> {title}</div>
       }
       if (title === 'Mental Health') {
