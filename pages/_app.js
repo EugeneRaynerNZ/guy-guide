@@ -22,7 +22,7 @@ const App = ({ Component, pageProps }) => {
       {/* Adsense */}
       <script 
         async
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1684783406695529"> 
       </script>
 
