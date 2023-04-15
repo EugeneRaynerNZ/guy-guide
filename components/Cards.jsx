@@ -1,5 +1,5 @@
 export default function Cards({arr}) {
-    console.log(arr); // 👉️ 
+    // console.log(arr); // 👉️ 
     return (
       <div style={{display: 'flex', columnGap: '16px', textAlign: 'center', flexWrap: 'wrap', justifyContent: 'center'}}>
         {arr.map(obj => {
